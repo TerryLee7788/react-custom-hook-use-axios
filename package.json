@@ -2,7 +2,10 @@
   "name": "react-custom-hook-use-axios",
   "version": "1.0.0",
   "description": "custom react hook and use axios to call api",
-  "main": "index.js",
+  "main": "src/useFetch/index.js",
+  "bugs": {
+    "url": "https://github.com/TerryLee7788/react-custom-hook-use-axios/issues"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
