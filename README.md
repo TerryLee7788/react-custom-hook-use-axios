@@ -1,3 +1,8 @@
+## Installation
+```
+npm i react-custom-hook-use-axios
+```
+
 ## Features
 - 1 dependency ([axios](https://github.com/axios/axios))
 - Use [jsonplaceholder API](https://jsonplaceholder.typicode.com/todos) for Demo
