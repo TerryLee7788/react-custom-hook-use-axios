@@ -9,7 +9,7 @@ npm i react-custom-hook-use-axios
 
 ## Usage
 ```js
-import { useFetch } from '../customHooks';
+import { useFetch } from 'react-custom-hook-use-axios';
 
 const BasicUsage = () => {
 
