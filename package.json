@@ -1,6 +1,6 @@
 {
   "name": "react-custom-hook-use-axios",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "custom react hook and use axios to call api",
   "main": "src/useFetch/index.js",
   "bugs": {
