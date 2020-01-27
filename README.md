@@ -1,3 +1,15 @@
+<p align="left">
+    <a href="https://www.npmjs.com/package/react-custom-hook-use-axios" target="_blank">
+      <img src="https://img.shields.io/npm/dt/react-custom-hook-use-axios.svg" />
+    </a>
+    <a href="https://lgtm.com/projects/g/TerryLee7788/react-custom-hook-use-axios/context:javascript" target="_blank">
+        <img alt="undefined" src="https://img.shields.io/lgtm/grade/javascript/g/TerryLee7788/react-custom-hook-use-axios.svg?logo=lgtm&logoWidth=18"/>
+    </a>
+    <a href="https://packagequality.com/#?package=react-custom-hook-use-axios" target="_blank">
+        <img src="https://npm.packagequality.com/shield/react-custom-hook-use-axios.svg"/>
+    </a>
+</p>
+
 ## Installation
 ```
 npm i react-custom-hook-use-axios
