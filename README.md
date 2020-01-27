@@ -26,7 +26,7 @@ import { useFetch } from 'react-custom-hook-use-axios';
 const BasicUsage = () => {
 
     const [user, setUser] = useState(1);
-    const [loading, response, error] = useFetch({
+    const [loading, response, fetchData, error] = useFetch({
         url: `https://jsonplaceholder.typicode.com/todos/${user}`
     }, [user]);
 
@@ -80,6 +80,7 @@ const BasicUsage = () => {
 | -- | -- |
 |loading|給畫面用的 loading 參數|
 |response|API 的 response data|
+|fetchData|手動調用 "fetchData" fn (如果有需要的話)|
 |error|API 的錯誤訊息 (如果有需要的話)|
 
 ### Options

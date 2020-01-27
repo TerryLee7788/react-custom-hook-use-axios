@@ -4,12 +4,11 @@ import { useFetch } from '../src/useFetch';
 const BasicUsage = () => {
 
     const [user, setUser] = useState(1);
-    const [loading, response, error] = useFetch({
+    const [loading, response, fetchData, error] = useFetch({
         url: `https://jsonplaceholder.typicode.com/todos/${user}`
     }, [user]);
 
     return (
-
         <div
             style={{
                 marginTop: '10px',
@@ -48,7 +47,6 @@ const BasicUsage = () => {
                     )
             }
         </div>
-
     )
 
 }
