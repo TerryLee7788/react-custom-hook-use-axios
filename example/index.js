@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useFetch } from '../src/useFetch';
+import { useFetch } from 'react-custom-hook-use-axios';
 
 const BasicUsage = () => {
 
     const [user, setUser] = useState(1);
-    const [loading, response, fetchData, error] = useFetch({
+    const [loading, response, , error] = useFetch({
         url: `https://jsonplaceholder.typicode.com/todos/${user}`
     }, [user]);
 
