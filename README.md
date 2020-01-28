@@ -1,13 +1,17 @@
 <p align="left">
-    <a href="https://www.npmjs.com/package/react-custom-hook-use-axios" target="_blank">
+    <a href="https://travis-ci.org/TerryLee7788/react-custom-hook-use-axios">
+      <img src="https://travis-ci.org/TerryLee7788/react-custom-hook-use-axios.svg?branch=master" />
+    </a>
+    <a href="https://www.npmjs.com/package/react-custom-hook-use-axios">
       <img src="https://img.shields.io/npm/dt/react-custom-hook-use-axios.svg" />
     </a>
-    <a href="https://lgtm.com/projects/g/TerryLee7788/react-custom-hook-use-axios/context:javascript" target="_blank">
+    <a href="https://lgtm.com/projects/g/TerryLee7788/react-custom-hook-use-axios/context:javascript">
         <img alt="undefined" src="https://img.shields.io/lgtm/grade/javascript/g/TerryLee7788/react-custom-hook-use-axios.svg?logo=lgtm&logoWidth=18"/>
     </a>
-    <a href="https://packagequality.com/#?package=react-custom-hook-use-axios" target="_blank">
+    <a href="https://packagequality.com/#?package=react-custom-hook-use-axios">
         <img src="https://npm.packagequality.com/shield/react-custom-hook-use-axios.svg"/>
     </a>
+    <a href='https://coveralls.io/github/TerryLee7788/react-custom-hook-use-axios?branch=master'><img src='https://coveralls.io/repos/github/TerryLee7788/react-custom-hook-use-axios/badge.svg?branch=master' alt='Coverage Status' /></a>
 </p>
 
 ## Installation
