@@ -8,9 +8,9 @@
     <a href="https://lgtm.com/projects/g/TerryLee7788/react-custom-hook-use-axios/context:javascript">
         <img alt="undefined" src="https://img.shields.io/lgtm/grade/javascript/g/TerryLee7788/react-custom-hook-use-axios.svg?logo=lgtm&logoWidth=18"/>
     </a>
-    <a href="https://packagequality.com/#?package=react-custom-hook-use-axios">
+    <!-- <a href="https://packagequality.com/#?package=react-custom-hook-use-axios">
         <img src="https://npm.packagequality.com/shield/react-custom-hook-use-axios.svg"/>
-    </a>
+    </a> -->
     <a href='https://coveralls.io/github/TerryLee7788/react-custom-hook-use-axios?branch=master'><img src='https://coveralls.io/repos/github/TerryLee7788/react-custom-hook-use-axios/badge.svg?branch=master' alt='Coverage Status' /></a>
 </p>
 
