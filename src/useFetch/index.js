@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const fetchFn = (options) => axios({
@@ -6,13 +6,13 @@ const fetchFn = (options) => axios({
     ...options
 });
 
-const useFetch = (options, dept = []) => {
+const useFetch = (options, deps = []) => {
 
     const [loading, setLoading] = useState(false);
     const [response, setResponse] = useState(null);
     const [error, setError] = useState(null);
 
-    const fetchData = useCallback(async () => {
+    const fetchData = async () => {
 
         if (loading) return
 
@@ -36,13 +36,13 @@ const useFetch = (options, dept = []) => {
 
         }
 
-    });
+    };
 
     useEffect(() => {
 
         fetchData();
 
-    }, dept);
+    }, deps);
 
     return [loading, response, fetchData, error];
 
