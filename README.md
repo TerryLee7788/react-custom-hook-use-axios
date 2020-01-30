@@ -91,4 +91,4 @@ const BasicUsage = () => {
 |Option|Description|
 | -- | -- |
 |`options`|完全參照 [axios API](https://github.com/axios/axios#axios-api) 參數|
-|`dept`|有條件的 [觸發 effect](https://zh-hant.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect)|
+|`deps`|有條件的 [觸發 effect](https://zh-hant.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect)|
